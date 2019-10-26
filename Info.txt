@@ -1,0 +1,65 @@
+Documentation for Built in functions
+*open*
+https://docs.python.org/2/library/functions.html#open
+open return an object of the file type
+*quotes = open()*
+quotes is the object of open()
+
+New Built In Function
+
+*tuple()*
+How to tuple work
+
+## Py code
+
+t1 = ('a')
+type(t1)
+<type 'str'>
+t =  'a'.'b'.'c'.'d'
+  File "<input>", line 1
+    t =  'a'.'b'.'c'.'d'
+               ^
+SyntaxError: invalid syntax
+t =  ('a'.'b'.'c'.'d')
+t1 = ('a'.)
+type(t1)
+  File "<input>", line 1
+    t =  ('a'.'b'.'c'.'d')
+                ^
+SyntaxError: invalid syntax
+t =  ('a','b','c','d')
+t1 = ('a',)
+type(t1)
+t1 = ('a',)
+type(t1)
+<type 'tuple'>
+t = tuple('lambchops')
+print(t)
+('l', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+print(t[1:5])
+('a', 'm', 'b', 'c')
+t = ('L') + t([0])
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'tuple' object is not callable
+t = ('L',) + t[0:]
+print(t)
+('L', 'l', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+t = ('L',) + t[1:]
+print(t)
+('L', 'l', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+t = ('a',) + t[1:]
+print(t)
+('a', 'l', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+t = () + t[1:]
+print(t)
+('l', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+t = ('L',) + t[1:]
+print(t)
+('L', 'a', 'm', 'b', 'c', 'h', 'o', 'p', 's')
+
+*** If Statements ***
+https://www.tutorialspoint.com/python/python_if_else.htm
+
+**** urllib Module documentation ****
+https://docs.python.org/3/library/urllib.request.html#module-urllib.request
